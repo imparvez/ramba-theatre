@@ -178,6 +178,7 @@ header {
    ========================================================================== */
 header .wrapper h1 {
     display: inline-block;
+    position: absolute;
 }
 
 header .wrapper h1 a.logo {
