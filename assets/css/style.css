@@ -363,7 +363,7 @@ header .wrapper .sharre-icons a.head-facebook {
 /* 2.4. Side-left
    ========================================================================== */
 .section .wrapper .main .side-left {
-    padding: 0 10px 0 0;
+    padding: 0 10px 10px 0;
     border-right: 1px solid rgba(178, 178, 178, 0.1); 
     display: inline-block;
 }
@@ -424,8 +424,10 @@ header .wrapper .sharre-icons a.head-facebook {
 }
 
 .section .wrapper .main .side-left a.more-news {
+    box-sizing: border-box;
     width: 157px;
     height: 42px;
+    padding: 10px 0 0;
     border-radius: 8px;
     float: right;
     background: url('../images/sprite.png') no-repeat 0 -143px;
@@ -435,6 +437,7 @@ header .wrapper .sharre-icons a.head-facebook {
     font-weight: bolder;
     line-height: 23px;
     text-decoration: none;
+    text-align: center;
 }
 
 /* 2.5. Side-right
@@ -509,7 +512,9 @@ header .wrapper .sharre-icons a.head-facebook {
    3. Footer
    ========================================================================== */
 
-footer {background-color:  #de2918;}
+footer {background: #000;}
+
+footer .wrapper {background-color:  #de2918;}
 
 footer .wrapper nav.footer-nav ul li {
     padding: 26px 0 0 15px;
@@ -523,4 +528,10 @@ footer .wrapper nav.footer-nav ul li a {
     font-size: 17px;
     line-height: 34px;
     text-decoration: none;
+}
+
+footer .wrapper p {
+    background: #000;
+    color: #fff;
+    text-align: center;
 }
