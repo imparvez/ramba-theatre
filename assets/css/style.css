@@ -347,6 +347,9 @@ header .wrapper .sharre-icons a.head-facebook {
     border-radius: 6px;
     background-color: #fff;
 }
+
+/* 2.4. Side-left
+   ========================================================================== */
 .section .wrapper .main .side-left {display: inline-block;}
 
 .section .wrapper .main .side-left .content { margin: 0 0 22px 9px;}
@@ -376,7 +379,11 @@ header .wrapper .sharre-icons a.head-facebook {
     line-height: 21px;
 }
 
-.section .wrapper .main .side-left .content .right-content ul.article-sharre-icons { margin: 39px 0 0;}
+.section .wrapper .main .side-left .content .right-content ul.article-sharre-icons { 
+    padding: 0 0 9px 0;
+    margin: 27px 0 0;
+    border-bottom: 1px solid #ccc;
+}
 
 .section .wrapper .main .side-left .content .right-content ul.article-sharre-icons li {
     float: left;
@@ -400,10 +407,27 @@ header .wrapper .sharre-icons a.head-facebook {
     text-indent: -99999px;
 	
 }
-/* 2.4. Side-left
-   ========================================================================== */
+
 /* 2.5. Side-right
-   ========================================================================== */   
+   ========================================================================== */ 
+.section .wrapper .main .side-right {
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.section .wrapper .main .side-right .join-community {
+    padding: 26px 0 0;
+    background: url('../images/newsletter_bg.png');
+}
+
+.section .wrapper .main .side-right .join-community h4 {
+    
+}
+
+.section .wrapper .main .side-right .join-community p {
+    
+}
 /* ==========================================================================
    3. Footer
    ========================================================================== */
