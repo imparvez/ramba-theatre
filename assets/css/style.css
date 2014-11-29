@@ -213,6 +213,7 @@ header .wrapper .sharre-icons a.head-facebook {
     display: inline-block;
     background: url('../images/facebook.png');
     text-indent: -99999px;
+    line-height: 13px;
 }
 /* ==========================================================================
    2. Section
@@ -435,6 +436,8 @@ header .wrapper .sharre-icons a.head-facebook {
 
 .section .wrapper .main .side-right .join-community {
     padding: 26px 0 0;
+    margin: 10px 0;
+    border-bottom: 1px solid #ccc;
     background: url('../images/newsletter_bg.png');
 }
 
