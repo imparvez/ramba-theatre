@@ -242,12 +242,18 @@ header .wrapper .sharre-icons a.head-facebook {
    ========================================================================== */
 .section .wrapper .slider-content { 
     height: 348px;
-    background: url('../images/banner.png')}
+    background: url('../images/banner.png');
+}
+
+.section .wrapper .slider-navigation {
+    position: relative;
+    top: 154px;
+}
 
 .section .wrapper .slider-navigation a.left {
     width: 37px;
     height: 58px;
-    display: inline-block;
+    float: left;
     background: url('../images/sprite.png') no-repeat 0 0;
     text-indent: -99999px;
 }
@@ -255,7 +261,7 @@ header .wrapper .sharre-icons a.head-facebook {
 .section .wrapper .slider-navigation a.right {
     width: 37px;
     height: 58px;
-    display: inline-block;
+    float: right;
     background: url('../images/sprite.png') no-repeat -47px 0;
     text-indent: -99999px;
 }
