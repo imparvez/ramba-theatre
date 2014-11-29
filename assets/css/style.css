@@ -302,6 +302,35 @@ header .wrapper .sharre-icons a.head-facebook {
 }
 /* 2.2. Juke box
    ========================================================================== */
+.section .wrapper .jukebox { position: relative;}
+
+.section .wrapper .jukebox a.prev {
+    width: 43px;
+    height: 44px;
+    display: inline-block;
+    background: url('../images/sprite.png') no-repeat -299px -68px;
+    text-indent: -99999px;
+}
+
+.section .wrapper .jukebox a.play {
+    width: 53px;
+    height: 53px;
+    position: absolute;
+    top: -3px;
+    left: 34px;
+    background: url('../images/sprite.png') no-repeat -156px 0;
+    text-indent: -99999px;
+}
+
+.section .wrapper .jukebox a.next {
+    width: 47px;
+    height: 44px;
+    margin: 0 0 0 32px;
+    display: inline-block;
+    background: url('../images/sprite.png') no-repeat -352px -68px;
+    text-indent: -99999px;
+	
+}
 /* 2.3. Main
    ========================================================================== */
 /* 2.4. Side-left
