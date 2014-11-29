@@ -179,6 +179,7 @@ header {
 header .wrapper h1 {
     display: inline-block;
     position: absolute;
+    z-index: 1;
 }
 
 header .wrapper h1 a.logo {
@@ -226,6 +227,7 @@ header .wrapper .sharre-icons a.head-facebook {
 .section .wrapper nav ul li { 
     padding: 0 20px 0 0;
     float: left;
+    list-style: none;
 }
 
 .section .wrapper nav ul li a {
@@ -269,7 +271,7 @@ header .wrapper .sharre-icons a.head-facebook {
 .section .wrapper .slider-news {
     width: 470px;
     position: absolute;
-    bottom: 61px;
+    top: 290px;
     left: 201px;
     background-color:  rgba(50, 50, 50, 0.29);
 }
