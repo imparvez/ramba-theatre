@@ -421,12 +421,35 @@ header .wrapper .sharre-icons a.head-facebook {
     background: url('../images/newsletter_bg.png');
 }
 
-.section .wrapper .main .side-right .join-community h4 {
-    
+.section .wrapper .main .side-right .join-community h2 {
+    padding: 0 0 0 32px;
+    color: #2b2b2b;
+    font-family: HelveticaInseratLTStd;
+    font-size: 22px;
+    line-height: 23px;
 }
 
 .section .wrapper .main .side-right .join-community p {
     
+}
+
+.section .wrapper .main .side-right .banner {
+    width: 300px;
+    height: 250px;
+    padding: 0 0 10px 0;
+    position: relative;
+    border-bottom: 1px solid #ccc;
+}
+
+.section .wrapper .main .side-right .banner p {
+    position: absolute;
+    top: 50%;
+    left: 32%;
+    color: #b2b2b2;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
 }
 /* ==========================================================================
    3. Footer
