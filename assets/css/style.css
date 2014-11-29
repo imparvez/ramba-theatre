@@ -191,7 +191,27 @@ header .wrapper h1 a.logo {
 
 /* 1.1.2 sharre icons
    ========================================================================== */
+header .wrapper .sharre-icons { 
+    margin: 10px 0;
+    float: right;
+}
 
+header .wrapper .sharre-icons a.head-twitter {
+    width: 142px;
+    height: 24px;
+    display: inline-block;
+    background: url('../images/@singerjawan.png');
+    background-size: contain;
+    text-indent: -99999px;
+}
+
+header .wrapper .sharre-icons a.head-facebook {
+    width: 47px;
+    height: 19px;
+    display: inline-block;
+    background: url('../images/facebook.png');
+    text-indent: -99999px;
+}
 /* ==========================================================================
    2. Section
    ========================================================================== */
