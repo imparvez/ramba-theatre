@@ -329,10 +329,40 @@ header .wrapper .sharre-icons a.head-facebook {
     display: inline-block;
     background: url('../images/sprite.png') no-repeat -352px -68px;
     text-indent: -99999px;
-	
 }
+
+.section .wrapper .jukebox { background: url('../images/soundcloudebg.jpg');}
+
+.section .wrapper .jukebox a.sound-visual {
+    width: 76px;
+    height: 44px;
+    float: right;
+    background: url('../images/sprite.png') no-repeat -492px 0;
+    text-indent: -999999px;
+}
+
 /* 2.3. Main
    ========================================================================== */
+.section .wrapper .main {
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+.section .wrapper .main .side-left .content .right-content {
+    width: 313px;
+    display: inline-block;
+}
+
+.section .wrapper .main .side-left .content .right-content h4 {
+    color:  #3f3e3e;
+    font-family: Helvetica;
+    font-size: 25px;
+    line-height: 26px;
+}
+
+.section .wrapper .main .side-left .content img { vertical-align: top; }
+
+
 /* 2.4. Side-left
    ========================================================================== */
 /* 2.5. Side-right
