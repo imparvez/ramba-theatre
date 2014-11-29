@@ -265,6 +265,22 @@ header .wrapper .sharre-icons a.head-facebook {
     background: url('../images/sprite.png') no-repeat -47px 0;
     text-indent: -99999px;
 }
+
+.section .wrapper .slider-news {
+    width: 470px;
+    position: absolute;
+    bottom: 96px;
+    left: 201px;
+    background-color:  rgba(50, 50, 50, 0.29);
+}
+
+.section .wrapper .slider-news p {
+    color: #ffffff;
+    font-family: Helvetica;
+    font-size: 22px;
+    line-height: 31px;
+    text-shadow: 1px 3px 0.54px rgba(0, 0, 0, 0.77);
+}
 /* 2.2. Juke box
    ========================================================================== */
 /* 2.3. Main
