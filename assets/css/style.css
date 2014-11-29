@@ -223,7 +223,17 @@ header .wrapper .sharre-icons a.head-facebook {
     background: #000;
 }
 
-.section .wrapper nav { float: right; }
+.section .wrapper {
+    padding: 25px 0 0;
+    position: relative;
+}
+
+.section .wrapper nav { 
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
 
 .section .wrapper nav ul li { 
     padding: 0 20px 0 0;
@@ -245,6 +255,7 @@ header .wrapper .sharre-icons a.head-facebook {
    ========================================================================== */
 .section .wrapper .slider-content { 
     height: 348px;
+    position: relative;
     background: url('../images/banner.png');
 }
 
@@ -272,8 +283,8 @@ header .wrapper .sharre-icons a.head-facebook {
 .section .wrapper .slider-news {
     width: 470px;
     position: absolute;
-    top: 290px;
-    left: 201px;
+    top: 225px;
+    left: 17px;
     background-color:  rgba(50, 50, 50, 0.29);
 }
 
@@ -498,3 +509,18 @@ header .wrapper .sharre-icons a.head-facebook {
    3. Footer
    ========================================================================== */
 
+footer {background-color:  #de2918;}
+
+footer .wrapper nav.footer-nav ul li {
+    padding: 26px 0 0 15px;
+    float: left;
+    list-style: none;
+}
+
+footer .wrapper nav.footer-nav ul li a {
+    color: #fff;
+    font-family: HelveticaInseratLTStd;
+    font-size: 17px;
+    line-height: 34px;
+    text-decoration: none;
+}
