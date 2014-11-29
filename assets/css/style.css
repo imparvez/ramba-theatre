@@ -347,9 +347,13 @@ header .wrapper .sharre-icons a.head-facebook {
     border-radius: 6px;
     background-color: #fff;
 }
+.section .wrapper .main .side-left {display: inline-block;}
+
+.section .wrapper .main .side-left .content { margin: 0 0 22px 9px;}
 
 .section .wrapper .main .side-left .content .right-content {
     width: 313px;
+    margin: 0 0 0 13px;
     display: inline-block;
 }
 
@@ -362,7 +366,40 @@ header .wrapper .sharre-icons a.head-facebook {
 
 .section .wrapper .main .side-left .content img { vertical-align: top; }
 
+.section .wrapper .main .side-left .content .right-content p {
+    margin: 25px 0 0;
+    color:  #5d5d5d;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.24px;
+    line-height: 21px;
+}
 
+.section .wrapper .main .side-left .content .right-content ul.article-sharre-icons { margin: 39px 0 0;}
+
+.section .wrapper .main .side-left .content .right-content ul.article-sharre-icons li {
+    float: left;
+    list-style: none;
+}
+.section .wrapper .main .side-left .content .right-content ul.article-sharre-icons li:last-child { padding: 0 0 0 12px;}
+
+.section .wrapper .main .side-left .content .right-content ul.article-sharre-icons li a.facebook {    
+    width: 48px;
+    height: 20px;
+    display: inline-block;
+    background: url('../images/facebook.png') no-repeat;
+    text-indent: -99999px;
+}
+
+.section .wrapper .main .side-left .content .right-content ul.article-sharre-icons li a.twitter {
+    width: 56px;
+    height: 20px;
+    display: inline-block;
+    background: url('../images/twitter.png') no-repeat;
+    text-indent: -99999px;
+	
+}
 /* 2.4. Side-left
    ========================================================================== */
 /* 2.5. Side-right
