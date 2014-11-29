@@ -269,17 +269,34 @@ header .wrapper .sharre-icons a.head-facebook {
 .section .wrapper .slider-news {
     width: 470px;
     position: absolute;
-    bottom: 96px;
+    bottom: 61px;
     left: 201px;
     background-color:  rgba(50, 50, 50, 0.29);
 }
 
 .section .wrapper .slider-news p {
+    padding: 12px 0 4px 12px;
     color: #ffffff;
     font-family: Helvetica;
     font-size: 22px;
     line-height: 31px;
     text-shadow: 1px 3px 0.54px rgba(0, 0, 0, 0.77);
+}
+
+.section .wrapper .slider-news a.watch-now {
+    width: 136px;
+    height: 42px;
+    padding: 9px 0 0 18px;
+    margin: 0 0 0 12px;
+    display: inline-block;
+    background: url('../images/sprite.png') no-repeat 0 -143px;
+    color:  #ffffff;
+    font-family: HelveticaInseratLTStd;
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 23px;
+    text-decoration: none;
+    text-shadow: 0px 1px 3px rgba(172, 98, 1, 0.75);
 }
 /* 2.2. Juke box
    ========================================================================== */
