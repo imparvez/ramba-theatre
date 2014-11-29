@@ -350,7 +350,11 @@ header .wrapper .sharre-icons a.head-facebook {
 
 /* 2.4. Side-left
    ========================================================================== */
-.section .wrapper .main .side-left {display: inline-block;}
+.section .wrapper .main .side-left {
+    padding: 0 10px 0 0;
+    border-right: 1px solid rgba(178, 178, 178, 0.1); 
+    display: inline-block;
+}
 
 .section .wrapper .main .side-left .content { margin: 0 0 22px 9px;}
 
@@ -405,7 +409,20 @@ header .wrapper .sharre-icons a.head-facebook {
     display: inline-block;
     background: url('../images/twitter.png') no-repeat;
     text-indent: -99999px;
-	
+}
+
+.section .wrapper .main .side-left a.more-news {
+    width: 157px;
+    height: 42px;
+    border-radius: 8px;
+    float: right;
+    background: url('../images/sprite.png') no-repeat 0 -143px;
+    color: #fff;
+    font-family: HelveticaInseratLTStd;
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 23px;
+    text-decoration: none;
 }
 
 /* 2.5. Side-right
@@ -430,13 +447,19 @@ header .wrapper .sharre-icons a.head-facebook {
 }
 
 .section .wrapper .main .side-right .join-community p {
-    
+    padding: 0 0 0 52px;
+    color: #de2918;
+    font-family: RobotoCondensed;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 23px;
 }
 
 .section .wrapper .main .side-right .banner {
     width: 300px;
     height: 250px;
     padding: 0 0 10px 0;
+    margin: 10px 0;
     position: relative;
     border-bottom: 1px solid #ccc;
 }
@@ -451,6 +474,23 @@ header .wrapper .sharre-icons a.head-facebook {
     font-weight: 400;
     line-height: 20px;
 }
+
+.section .wrapper .main .side-right .fan-photos p {
+    padding: 0 0 10px 10px;
+    margin: 10px 0 0;
+    color: #2b2b2b;
+    font-family: HelveticaInseratLTStd;
+    font-size: 28.95px;
+    line-height: 23px;
+}
+
+.section .wrapper .main .side-right .insta {
+    padding: 14px 0;
+    margin: 10px 0;
+    background: #f2f2f2;
+}
+
+.section .wrapper .main .side-right .insta img {width: 100%;}
 /* ==========================================================================
    3. Footer
    ========================================================================== */
