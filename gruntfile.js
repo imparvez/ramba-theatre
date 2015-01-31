@@ -1,4 +1,6 @@
 module.exports =  function(grunt) {
+
+	// Load the plugin that provides the "uglify" task.
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
 
@@ -19,7 +21,7 @@ module.exports =  function(grunt) {
 					expand: true,
 					cwd: 'assets/css/',
 					src: ['*.css', '!*.min.css'],
-					dest: 'assets/css/',
+					dest: 'prod/css/',
 					ext: '.min.css'
 				}]
 			}
@@ -31,14 +33,19 @@ module.exports =  function(grunt) {
 			},
 			my_target: {
 				files: {
-					'assets/js/main.min.js': ['assets/js/script.js']
+					'prod/js/script.min.js': ['assets/js/script.js']
 				}
 			}
 		}
 	});
 
+	// Load the plugin that provides the "css minify" task.
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
+	// Load the plugin that provides the "uglify" task.
 	grunt.loadNpmTasks('grunt-contrib-uglify');
+	// Load the plugin that provides the "browser-sync" task.
 	grunt.loadNpmTasks('grunt-browser-sync');
+	
+	// Default task(s).
 	grunt.registerTask('default', ["uglify", "cssmin", "browserSync"]);
 };
