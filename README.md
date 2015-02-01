@@ -1,4 +1,4 @@
-prdxn-dev-framework
+dev-framework
 ===================
 
-PRDXN's "starting package" used for development.
+A framework based on grunt to simplify development.
