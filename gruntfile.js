@@ -4,6 +4,25 @@ module.exports =  function(grunt) {
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
 
+		watch: {
+			sass: {
+				files: ['sass/*.scss'],
+				tasks: ['sass', 'cssmin'],
+			},
+			uglify: {
+				files: ['assets/js/*.js'],
+				tasks: ['uglify'],
+			}
+		},
+
+		sass: {
+		    dist: {
+		      files: {
+		        'assets/css/style.css': 'sass/style.scss'
+		      }
+		    }
+		},
+
 		browserSync: {
 		    bsFiles: {
 		        src : 'assets/css/*.css'
@@ -45,7 +64,11 @@ module.exports =  function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	// Load the plugin that provides the "browser-sync" task.
 	grunt.loadNpmTasks('grunt-browser-sync');
+	// Load the plugin that provides the "sass-compilation" task.
+	grunt.loadNpmTasks('grunt-contrib-sass');
+	// Load the plugin that provides the "watch" task.
+	grunt.loadNpmTasks('grunt-contrib-watch');
 	
 	// Default task(s).
-	grunt.registerTask('default', ["uglify", "cssmin", "browserSync"]);
+	grunt.registerTask('default', ["watch"]);
 };
