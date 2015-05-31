@@ -30,8 +30,10 @@
   <link rel="shortcut icon" href="favicon.ico" />
 
   <!-- Default style-sheet is for 'media' type screen (color computer display).  -->
-  <link rel="stylesheet" media="screen" href="assets/css/style.css" >
+
   <link rel="stylesheet" media="screen" href="assets/css/flexslider.css">
+  <link rel="stylesheet" media="screen" href="prod/css/style.min.css" >
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
   <!-- html5shiv aka html5 shim. Supporting HTML5 and CSS for IE browsers less than IE9. -->	
   <!--[if lt IE 9]>  
@@ -42,101 +44,127 @@
 
 <body>
   <div class="container">
-    <div class="wrapper">
-      <header>
+    <header>
         <h1><a href="index.html" class="logo">ramba theatre</a></h1>
-        <nav>
-          <ul>
-            <li><a href="index.html">home</a></li>
-            <li><a href="#">about us</a></li>
-            <li><a href="#">contact us</a></li>
+        <span class="menu-trigger">MENU</span>
+        <nav class="nav-menu">
+          <ul class="clearfix">
+            <li class="clearfix"><a class="active fa fa-home" href="index.html"></a></li>
+            <li class="clearfix"><a href="#">about us</a></li>
+            <li class="clearfix"><a href="#">contact us</a></li>
           </ul>
         </nav>
       </header>
-      <main>
-        <div class="upper-content">
-          <div class="upper-flexsldier">
-            <div id="main-slider" class="flexslider">
-              <ul class="slides">
-                  <li><img src="http://flexslider.woothemes.com/images/kitchen_adventurer_cheesecake_brownie.jpg"/></li>
-                  <li><img src="http://flexslider.woothemes.com/images/kitchen_adventurer_lemon.jpg"/></li>
-                  <li><img src="http://flexslider.woothemes.com/images/kitchen_adventurer_caramel.jpg"/></li>
-                  <li><img src="http://flexslider.woothemes.com/images/kitchen_adventurer_donut.jpg"/></li>
-              </ul>
+      <div class="wrapper">
+        <main>
+          <div class="upper-content">
+            <div class="upper-flexslider">
+              <div id="main-slider" class="flexslider">
+                <ul class="slides">
+                    <li>
+                      <img src="assets/images/Flash-banner.png" alt="image-1"/>
+                      <p class="flex-caption">Lorem Ipsum Dolor Sit</p>
+                    </li>
+                    <li>
+                      <img src="assets/images/Flash-banner.png" alt="image-2"/>
+                      <p class="flex-caption">Lorem Ipsum Dolor Sit</p>
+                    </li>
+                    <li>
+                      <img src="assets/images/Flash-banner.png" alt="image-3"/>
+                      <p class="flex-caption">Lorem Ipsum Dolor Sit</p>
+                    </li>
+                    <li>
+                      <img src="assets/images/Flash-banner.png" alt="image-4"/>
+                      <p class="flex-caption">Lorem Ipsum Dolor Sit</p>
+                    </li>
+                </ul>
+              </div>
             </div>
+            <form>
+              <p>book movie ticket instantly</p>
+              <div class="radio-button">
+                <input type="radio" name="selection" value="movies" checked>Movies
+                <input type="radio" name="selection" value="cinemas">Cinemas
+              </div>
+              <select>
+                <option value="1">Select Movie</option>
+                <option value="2">Movie 1</option>
+                <option value="3">Movie 2</option>
+                <option value="4">Movie 3</option>
+                <option value="5">Movie 4</option>
+                <option value="6">Movie 5</option>           
+              </select> 
+              <select>
+                  <option value="1">Select Date</option>
+                  <option value="2">Date 1</option>
+                  <option value="3">Date 2</option>
+                  <option value="4">Date 3</option> 
+                  <option value="5">Date 4</option>
+                  <option value="6">Date 5</option>          
+              </select>
+              <button type="button">book tickets</button>
+            </form>
           </div>
-          <form>
-            <p>book movie ticket instantly</p>
-            <div class="radio-button">
-              <input type="radio" name="selection" value="movies" checked>Movies
-              <input type="radio" name="selection" value="cinemas">Cinemas
-            </div>
-            <select>
-              <option value="1">Movie 1</option>
-              <option value="2">Movie 2</option>
-              <option value="3">Movie 3</option>
-              <option value="4">Movie 4</option>
-              <option value="5">Movie 5</option>
-              <option value="6">Movie 6</option>           
-            </select> 
-            <select>
-                <option value="1">Date 1</option>
-                <option value="2">Date 2</option>
-                <option value="3">Date 3</option>
-                <option value="4">Date 4</option> 
-                <option value="5">Date 5</option>
-                <option value="6">Date 6</option>          
-            </select>
-            <button type="button">book tickets</button>
-          </form>
-        </div>
-        <div class="lower-content">
-          <ul>
-            <li><a herf="FIXME">now showing</a></li>
-            <li><a herf="FIXME">coming soon</a></li>
-            <div class="lower-flexsldier">
+          <div class="lower-content">
+            <ul class="clearfix">
+              <li><a class="now-showing" href="FIXME">now showing</a></li>
+              <li><a class="coming-soon" href="FIXME">coming soon</a></li>
+            </ul>
+            <div class="lower-flexslider">
               <div id="reviews-slider" class="flexslider">
                 <ul class="slides">
-                    <li><img src="http://flexslider.woothemes.com/images/kitchen_adventurer_cheesecake_brownie.jpg"/></li>
-                    <li><img src="http://flexslider.woothemes.com/images/kitchen_adventurer_lemon.jpg"/></li>
-                    <li><img src="http://flexslider.woothemes.com/images/kitchen_adventurer_caramel.jpg"/></li>
-                    <li><img src="http://flexslider.woothemes.com/images/kitchen_adventurer_donut.jpg"/></li>
-                    <li><img src="http://flexslider.woothemes.com/images/kitchen_adventurer_cheesecake_brownie.jpg"/></li>
-                    <li><img src="http://flexslider.woothemes.com/images/kitchen_adventurer_cheesecake_brownie.jpg"/></li>
-                    <li><img src="http://flexslider.woothemes.com/images/kitchen_adventurer_cheesecake_brownie.jpg"/></li>
-                    <li><img src="http://flexslider.woothemes.com/images/kitchen_adventurer_cheesecake_brownie.jpg"/></li>
-                    <li><img src="http://flexslider.woothemes.com/images/kitchen_adventurer_cheesecake_brownie.jpg"/></li>
+                  <li><img src="prod/images/movie-1.png" alt="image-1"/><p class="flex-caption">Lorem Ipsum Dolor Sit</p></li>
+                  <li><img src="prod/images/movie-2.png" alt="image-2"/><p class="flex-caption">Lorem Ipsum Dolor Sit</p></li>
+                  <li><img src="prod/images/movie-3.png" alt="image-3"/><p class="flex-caption">Lorem Ipsum Dolor Sit</p></li>
+                  <li><img src="prod/images/movie-4.png" alt="image-4"/><p class="flex-caption">Lorem Ipsum Dolor Sit</p></li>
+                  <li><img src="prod/images/movie-5.png" alt="image-5"/><p class="flex-caption">Lorem Ipsum Dolor Sit</p></li>
+                  <li><img src="prod/images/movie-6.png" alt="image-6"/><p class="flex-caption">Lorem Ipsum Dolor Sit</p></li>
+                  <li><img src="prod/images/movie-1.png" alt="image-1"/><p class="flex-caption">Lorem Ipsum Dolor Sit</p></li>
+                  <li><img src="prod/images/movie-2.png" alt="image-2"/><p class="flex-caption">Lorem Ipsum Dolor Sit</p></li>
+                  <li><img src="prod/images/movie-3.png" alt="image-3"/><p class="flex-caption">Lorem Ipsum Dolor Sit</p></li>
+                  <li><img src="prod/images/movie-4.png" alt="image-4"/><p class="flex-caption">Lorem Ipsum Dolor Sit</p></li>
+                  <li><img src="prod/images/movie-5.png" alt="image-5"/><p class="flex-caption">Lorem Ipsum Dolor Sit</p></li>
+                  <li><img src="prod/images/movie-6.png" alt="image-6"/><p class="flex-caption">Lorem Ipsum Dolor Sit</p></li>
+                  <li><img src="prod/images/movie-1.png" alt="image-1"/><p class="flex-caption">Lorem Ipsum Dolor Sit</p></li>
+                  <li><img src="prod/images/movie-2.png" alt="image-2"/><p class="flex-caption">Lorem Ipsum Dolor Sit</p></li>
+                  <li><img src="prod/images/movie-3.png" alt="image-3"/><p class="flex-caption">Lorem Ipsum Dolor Sit</p></li>
+                  <li><img src="prod/images/movie-4.png" alt="image-4"/><p class="flex-caption">Lorem Ipsum Dolor Sit</p></li>
+                  <li><img src="prod/images/movie-5.png" alt="image-5"/><p class="flex-caption">Lorem Ipsum Dolor Sit</p></li>
+                  <li><img src="prod/images/movie-6.png" alt="image-6"/><p class="flex-caption">Lorem Ipsum Dolor Sit</p></li>
                 </ul>
+              </div>
             </div>
+          </div>
+        </main>
+        <footer>
+          <div class="connect-point">
+            <div class="contact-us">
+              <p class="header"><span>contact us</span></p>
+              <address>
+                <p class="address-header">Ramba Theatre</p>
+                Floor, Accord Niddhi, Near Palm Court Complex,<br /> 
+                Next to Croma, Link Road.<br />
+                Malad(W), Mumbai(Mah.).<br />
+                <p class="address-header">For any suggestions/complaints, <br />please drop us a mail at
+                <a href="mailto:webmaster@example.com">info@rambatheatre.com</a></p>
+              </address>
             </div>
-          </ul>
-        </div>
-      </main>
-      <footer>
-        <div class="connect-point">
-          <div class="contact-us">
-            <address>
-            <p class="address-header">Ramba Theatre</p>
-            floor, accord niddhi, near palm court complex,<br /> 
-            next to croma, link road.<br />
-            malad(w), mumbai(mah).<br />
-            <p class="address-header">for any suggestions/complaints, please drop us a mail at
-            <a href="mailto:webmaster@example.com">info@rambatheatre.com</a></p>
-            </address>
+            <div class="follow-us">
+            <p class="header"><span>follow us</span></p>
+              <ul class="clearfix">
+                <li><a class="fb" title="facebook/bookmyshow" href="FIXME">facebook</a></li>
+                <li><a class="twitter" title="facebook/twitter" href="FIXME">twitter</a></li>
+                <li><a class="youtube" title="facebook/youtube" href="FIXME">youtube</a></li>
+                <li><a class="gplus" title="facebook/googleplus" href="FIXME">googleplus</a></li>
+              </ul>
+              <p class="footer-logo" ><span>Powered by</span>
+                <a title="bookmyshow" href="FIXME">powered by book my show</a>
+              </p>
+            </div>
           </div>
-          <div class="follow-us">
-            <ul>
-              <li><a href="FIXME">facebook</a></li>
-              <li><a href="FIXME">twitter</a></li>
-              <li><a href="FIXME">youtube</a></li>
-              <li><a href="FIXME">googleplus</a></li>
-            </ul>
-            <a class="footer-logo" href="FIXME">powered by book my show</a>
-          </div>
-        </div>
-        <p>Copyright &copy;mirajcinema.com. All Rights Reserved 2014. Design and Developed by <a href="FIXME">BookMyShow.com</a></p>
-      </footer>
-    </div>
+          <p class="copyright-text">Copyright &copy;mirajcinema.com All Rights Reserved 2014. Design and Developed by <a href="FIXME">BookMyShow.com</a></p>
+        </footer>
+      </div>
   </div>
 
 <script src="assets/vendor/jquery-2.1.4.min.js"></script>
