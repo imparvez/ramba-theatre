@@ -191,9 +191,12 @@
         @media screen and (min-width: 768px) and (max-width: 1024px) {
           .container .wrapper .upper-content form select {
             background-position-x: 181px; } }
-        @media screen and (min-device-width: 320px) and (max-device-width: 420px) and (orientation: portrait) {
+        @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
           .container .wrapper .upper-content form select {
             background-position-x: 222px; } }
+        @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
+          .container .wrapper .upper-content form select {
+            background-position-x: 151px; } }
       .container .wrapper .upper-content form button {
         width: 161px;
         height: 32px;
@@ -214,6 +217,9 @@
         @media screen and (min-device-width: 320px) and (max-device-width: 420px) and (orientation: portrait) {
           .container .wrapper .upper-content form button {
             margin: 28px 0 0 42px; } }
+        @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
+          .container .wrapper .upper-content form button {
+            margin: 14px 0 0 21px; } }
     .container .wrapper .lower-content {
       padding: 20px 15px;
       border-top: 4px solid #0398a6;

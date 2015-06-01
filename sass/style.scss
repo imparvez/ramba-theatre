@@ -276,9 +276,15 @@ $copyright-background: #f06d22;
 				    	background-position-x: 181px;
 				    }
 
-				    @media screen and (min-device-width: 320px) and (max-device-width: 420px) and (orientation : portrait) {
+				    @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation : portrait) {
 							background-position-x: 222px;
 						}
+
+						@media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : landscape) {
+							background-position-x: 151px;
+						}
+
+
   				}
 
   				button {
@@ -304,6 +310,10 @@ $copyright-background: #f06d22;
 
 					  @media screen and (min-device-width: 320px) and (max-device-width: 420px) and (orientation : portrait) {
 							margin: 28px 0 0 42px;
+						}
+
+						@media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : landscape) {
+							margin: 14px 0 0 21px;
 						}
   				}
 				}
