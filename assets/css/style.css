@@ -89,6 +89,9 @@
     width: 72.8%;
     margin: 0 auto;
     background: #fff; }
+    @media screen and (min-device-width: 320px) and (max-device-width: 420px) and (orientation: portrait) {
+      .container .wrapper {
+        width: 100%; } }
     @media screen and (min-width: 768px) and (max-width: 1024px) {
       .container .wrapper .upper-content {
         margin-bottom: 10px; } }
@@ -154,6 +157,9 @@
       .container .wrapper .upper-content form > p {
         font-weight: bold;
         text-transform: capitalize; }
+      @media screen and (min-device-width: 320px) and (max-device-width: 420px) and (orientation: portrait) {
+        .container .wrapper .upper-content form {
+          font-size: 24px; } }
       .container .wrapper .upper-content form .radio-button input {
         color: #58595b; }
         .container .wrapper .upper-content form .radio-button input[value="cinemas"] {
@@ -185,6 +191,9 @@
         @media screen and (min-width: 768px) and (max-width: 1024px) {
           .container .wrapper .upper-content form select {
             background-position-x: 181px; } }
+        @media screen and (min-device-width: 320px) and (max-device-width: 420px) and (orientation: portrait) {
+          .container .wrapper .upper-content form select {
+            background-position-x: 222px; } }
       .container .wrapper .upper-content form button {
         width: 161px;
         height: 32px;
@@ -202,6 +211,9 @@
         @media screen and (min-width: 768px) and (max-width: 1024px) {
           .container .wrapper .upper-content form button {
             margin: 6px 0 0 28px; } }
+        @media screen and (min-device-width: 320px) and (max-device-width: 420px) and (orientation: portrait) {
+          .container .wrapper .upper-content form button {
+            margin: 28px 0 0 42px; } }
     .container .wrapper .lower-content {
       padding: 20px 15px;
       border-top: 4px solid #0398a6;
@@ -350,6 +362,9 @@
           @media screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
             .container .wrapper footer .connect-point .follow-us .footer-logo a {
               margin-left: 34%; } }
+          @media screen and (min-device-width: 320px) and (max-device-width: 420px) and (orientation: portrait) {
+            .container .wrapper footer .connect-point .follow-us .footer-logo a {
+              margin-left: 38%; } }
     .container .wrapper footer .copyright-text {
       background: #f06d22;
       padding: 10px 25px;

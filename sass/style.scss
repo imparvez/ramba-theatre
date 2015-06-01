@@ -134,6 +134,10 @@ $copyright-background: #f06d22;
 		margin: 0 auto;
 		background: #fff;
 
+		@media screen and (min-device-width: 320px) and (max-device-width: 420px) and (orientation : portrait) {
+			width: 100%;
+		}
+
 		.upper-content {
 			@media screen and (min-width: 768px) and (max-width: 1024px) {
 				margin-bottom: 10px;
@@ -227,6 +231,10 @@ $copyright-background: #f06d22;
   					text-transform: capitalize;
   				}
 
+  				@media screen and (min-device-width: 320px) and (max-device-width: 420px) and (orientation : portrait) {
+						font-size: 24px;
+					}
+
   				.radio-button {
   					input {
   						color: $color;
@@ -267,6 +275,10 @@ $copyright-background: #f06d22;
 				    @media screen and (min-width: 768px) and (max-width: 1024px) {
 				    	background-position-x: 181px;
 				    }
+
+				    @media screen and (min-device-width: 320px) and (max-device-width: 420px) and (orientation : portrait) {
+							background-position-x: 222px;
+						}
   				}
 
   				button {
@@ -289,6 +301,10 @@ $copyright-background: #f06d22;
 					  @media screen and (min-width: 768px) and (max-width: 1024px) {
 					  	margin: 6px 0 0 28px;
 					  }
+
+					  @media screen and (min-device-width: 320px) and (max-device-width: 420px) and (orientation : portrait) {
+							margin: 28px 0 0 42px;
+						}
   				}
 				}
 		}
@@ -510,6 +526,10 @@ $copyright-background: #f06d22;
 
 						  @media screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {
 								margin-left: 34%;
+							}
+
+							@media screen and (min-device-width: 320px) and (max-device-width: 420px) and (orientation : portrait) {
+								margin-left: 38%;
 							}
 						}
 					}
